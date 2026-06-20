@@ -1,0 +1,13 @@
+.dark-placeholder::placeholder {
+    color: #585b5e;
+    opacity: 1;
+}
+
+.light-placeholder::placeholder {
+    color: #585b5e;
+    opacity: 1;
+}
+
+.accordion-dark .accordion-button::after {
+    filter: brightness(0) invert(1);
+}
